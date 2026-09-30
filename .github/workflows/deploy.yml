@@ -10,5 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "Hi 깃헙액션 출력"
-        run: echo "Hi 깃헙액션"
+      - name: "1️⃣ dev 변경 감지"
+        run: echo "dev 브랜치에 push 이벤트가 발생했습니다."
+
+      - name: "2️⃣ 코드 확인"
+        run: echo "변경된 코드를 확인합니다."
+
+      - name: "3️⃣ 배포 준비"
+        run: echo "배포 준비를 진행합니다."
+
+      - name: "4️⃣ 완료"
+        run: echo "GitHub Actions 실행이 완료되었습니다."
