@@ -1,0 +1,14 @@
+name: github actions 맛보기
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Hi 깃헙액션 출력"
+        run: echo "Hi 깃헙액션"
